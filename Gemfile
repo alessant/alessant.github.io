@@ -17,4 +17,5 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
