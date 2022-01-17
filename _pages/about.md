@@ -7,7 +7,9 @@ subtitle: Ph.D. Student @ <a href='https://www.isislab.it/en/'>ISISLab laborator
 profile:
   align: right
   image: prof_pic.jpg
-  address: 
+  address: >
+    Reach me at <br>
+    aantelmi [at] unisa [dot] it
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"

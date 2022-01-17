@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Alessia
 middle_name: 
 last_name: Antelmi
-email: you@example.com
+email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -53,10 +53,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: alessant # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+twitter_username: alessiaantelmi # your Twitter handle
+linkedin_username: alessia-antelmi # your LinkedIn user name
+scholar_userid: hblxtDYAAAAJ # your Google Scholar ID
+orcid_id: 0000-0002-6366-0546 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -65,13 +65,12 @@ blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
+dblp_url: pid/173/0709.html # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-rss_icon: true
+rss_icon: false
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: #> You can even add a little note about which of these is the best way to reach you.
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
