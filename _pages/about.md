@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student @ <a href='https://www.isislab.it/en/'>ISISLab laboratory</a> · Università degli Studi di Salerno · Italy
+subtitle: Ph.D. Candidate @ <a href='https://www.isislab.it/en/'>ISISLab laboratory</a> · Università degli Studi di Salerno · Italy
 
 profile:
   align: right

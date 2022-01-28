@@ -4,7 +4,7 @@ title: Research
 nav: true
 dropdown: true
 children: 
-    - title: Working on...
+    - title: Current research
       permalink: /research/
     - title: divider
     - title: Thesis proposal
