@@ -2,10 +2,9 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
+description: Infos and materials for courses I teach. 
+nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+### Laboratorio di Informatica III @ Scienze della Comunicazione
+Tutto il materiale è disponibile sul [Team del corso](https://teams.microsoft.com/l/team/19%3ahyqS6PCMyt6KLYWE58IuGkEh8TGOLtJpjUeJqtX7nZU1%40thread.tacv2/conversations?groupId=7c88d645-e920-418c-82fa-1488bbfa832e&tenantId=c30767db-3dda-4dd4-8a4d-097d22cb99d3).
