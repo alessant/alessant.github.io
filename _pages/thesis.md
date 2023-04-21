@@ -2,11 +2,15 @@
 layout: page
 permalink: /thesis/
 title: Thesis proposal
-description: Infos for UNISA students.
+description: Infos for UNITO/UNISA students.
 nav: false
+
+# I'm a member of the [ISISLab laboratory](https://www.isislab.it/en/). If you're curious about some of the topics I mentioned or you'd like to propose your own idea, join our [ISISLab Discord community](https://discord.gg/BTt5fUp) and let's organize a little chat.
+
+#After that, if you're still convinced you wanna work with me, I will gladly become your tutor. Your official university supervisor will still be professor Vittorio Scarano.
 ---
 
-Are you a bachelor or master student interested in complex networks? Do you wanna complete your internship in a vibrant lab? Well, you're on the right spot. 
+Are you a bachelor or master student interested in complex networks? Do you wanna complete your internship in a vibrant group? Well, you're on the right spot. 
 
 `Topics you could work on` <br>
 Here's a (not comprehensive) list of some of the topics you could work on, but you are very welcome to propose your own idea.
@@ -23,7 +27,10 @@ You can find completely hands-on tasks (if you like coding) as well as some othe
   - Hypergraph embedding techniques;
   - (Temporal) hypergraph immunization techniques.
 
-`Where to find me` <br>
+`Where to find me in Turin` <br>
+Not based in Turing right now, just drop me a line!
+
+`Where to find me in Salerno` <br>
 I'm a member of the [ISISLab laboratory](https://www.isislab.it/en/). If you're curious about some of the topics I mentioned or you'd like to propose your own idea, join our [ISISLab Discord community](https://discord.gg/BTt5fUp) and let's organize a little chat.
 
 After that, if you're still convinced you wanna work with me, I will gladly become your tutor. Your official university supervisor will still be professor Vittorio Scarano.

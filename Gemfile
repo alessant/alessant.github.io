@@ -17,5 +17,11 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
+    gem 'eventmachine', '1.2.7', git: 'https://github.com/eventmachine/eventmachine.git', tag: 'v1.2.7'
     gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
+
+gem "jekyll-seo-tag", "~> 2.8"
+gem "jekyll-paginate", "~> 1.1"
+
+gem "webpack", "~> 0.4.2"
