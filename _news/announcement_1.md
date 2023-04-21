@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-01-09 
 inline: true
 ---
 
-A simple inline announcement.
+Today I officially joined the [NERDS](https://nerds.itu.dk/) research group at ITU as a visitor researcher to work on the [COCOONS project](https://www.carlsbergfondet.dk/da/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0432_Luca-Maria-Aiello) led by [Prof. Luca Maria Aiello](http://www.lajello.com/)! 🤩
