@@ -17,11 +17,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
 # Currently, I am a PostDoc @ the ISISLab laboratory, led by [Professor Vittorio Scarano](https://docenti.unisa.it/001717/home). Here, I have the opportunity to closely work with [Professor Gennaro Cordasco](https://sites.google.com/site/cordasco/) and [Dr. Carmine Spagnuolo](https://spagnuolocarmine.github.io/). My research interests span from `complex systems`, to `agent-based modeling` and `simulation`, to `online user behavior`. 
+
+# Currently, I am an Assistant Professor @ the University of Turin where I joined the [parallel computing research group](https://alpha.di.unito.it/), led by [Prof. Marco Aldinucci](https://alpha.di.unito.it/marco-aldinucci/). 
 ---
 
 Hey you, welcome on my page 🤓
 
-Currently, I am an Assistant Professor @ the University of Turin where I joined the [parallel computing research group](https://alpha.di.unito.it/), led by [Prof. Marco Aldinucci](https://alpha.di.unito.it/marco-aldinucci/). 
+Currently, I am a researcher (RTD-A) @ the University of Turin where I joined the [parallel computing research group](https://alpha.di.unito.it/), led by [Prof. Marco Aldinucci](https://alpha.di.unito.it/marco-aldinucci/). 
 
 Previously, I have been a PostDoc and Ph.D. student @ the ISISLab laboratory, led by [Professor Vittorio Scarano](https://docenti.unisa.it/001717/home), where, I had (and have!) the opportunity to closely work with [Professor Gennaro Cordasco](https://sites.google.com/site/cordasco/) and [Dr. Carmine Spagnuolo](https://spagnuolocarmine.github.io/).
 
