@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor (RTD-A) @ Università di Torino · Italy
+subtitle: Researcher (RTD-A) @ Università di Torino · Italy
 
 #PostDoc @ <a href='https://www.isislab.it/en/'>ISISLab laboratory</a> · Università degli Studi di Salerno · Italy
 
