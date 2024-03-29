@@ -4,6 +4,68 @@
 @string{aps = {American Physical Society,}}
 
 
+@article{Antelmi_CSUR_2023,
+  author = {Alessia Antelmi, and Gennaro Cordasco, and Mirko Polato, and Vittorio Scarano and Carmine Spagnuolo and Dingqi Yang},
+  title = {A Survey on Hypergraph Representation Learning},
+  year = {2023},
+  issue_date = {January 2024},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {56},
+  number = {1},
+  issn = {0360-0300},
+  html = {https://doi.org/10.1145/3605776},
+  doi = {10.1145/3605776},
+  abstract = {Hypergraphs have attracted increasing attention in recent years thanks to their flexibility in naturally modeling a broad range of systems where high-order relationships exist among their interacting parts. This survey reviews the newly born hypergraph representation learning problem, whose goal is to learn a function to project objects—most commonly nodes—of an input hyper-network into a latent space such that both the structural and relational properties of the network can be encoded and preserved. We provide a thorough overview of existing literature and offer a new taxonomy of hypergraph embedding methods by identifying three main families of techniques, i.e., spectral, proximity-preserving, and (deep) neural networks. For each family, we describe its characteristics and our insights in a single yet flexible framework and then discuss the peculiarities of individual methods, as well as their pros and cons. We then review the main tasks, datasets, and settings in which hypergraph embeddings are typically used. We finally identify and discuss open challenges that would inspire further research in this field.},
+  journal = {ACM Computing Surveys},
+  month = {aug},
+  articleno = {24},
+  numpages = {38},
+  abbr = {CSUR},
+  bibtex_show = {true},
+  code = {https://github.com/alessant/HEE},
+  pdf = {publications/Antelmi_CSUR_2023.pdf},
+  supp = {publications/Antelmi_CSUR_2023_supp.pdf}
+}
+
+@inproceedings{Antelmi_TheWebConf_2023,
+  author = {Alessia Antelmi and Gennaro Cordasco, and Daniele De Vinco, and Carmine Spagnuolo},
+  title = {The Age of Snippet Programming: Toward Understanding Developer Communities in Stack Overflow and Reddit},
+  year = {2023},
+  isbn = {9781450394192},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  doi = {10.1145/3543873.3587673},
+  html = {https://doi.org/10.1145/3543873.3587673},
+  abstract = {Today, coding skills are among the most required competencies worldwide, often also for non-computer scientists. Because of this trend, community contribution-based, question-and-answer (Q&A) platforms became prominent for finding the proper solution to all programming issues. Stack Overflow has been the most popular platform for technical-related questions for years. Still, recently, some programming-related subreddits of Reddit have become a standing stone for questions and discussions. This work investigates the developers’ behavior and community formation around the twenty most popular programming languages. We examined two consecutive years of programming-related questions from Stack Overflow and Reddit, performing a longitudinal study on users’ posting activity and their high-order interaction patterns abstracted via hypergraphs. Our analysis highlighted crucial differences in how these Q&A platforms are utilized by their users. In line with previous literature, it emphasized the constant decline of Stack Overflow in favor of more community-friendly platforms, such as Reddit, which has been growing rapidly lately.},
+  booktitle = {Companion Proceedings of the ACM Web Conference 2023},
+  pages = {1218–1224},
+  numpages = {7},
+  keywords = {Developer communities, Hypergraphs, Network Analysis, Q&A social platforms, Reddit, Stack Overflow, User behavior},
+  series = {WWW '23 Companion},
+  abbr = {TheWebConf},
+  bibtex_show={true},
+  pdf = {publications/Antelmi_TheWebConf_2023.pdf},
+  code = {https://github.com/ddevin96/DevCommunities}
+}
+
+@conference{Pellegrino_CSEDU_2023,
+  author={Pellegrino, Maria Angela and Antelmi, A.},
+  title={At School of Open Data: A Literature Review},
+  booktitle={Proceedings of the 15th International Conference on Computer Supported Education - Volume 2: CSEDU,},
+  year={2023},
+  pages={172-183},
+  publisher={SciTePress},
+  organization={INSTICC},
+  doi={10.5220/0011747500003470},
+  isbn={978-989-758-641-5},
+  bibtex_show={true},
+  abbr={CSEDU},
+  html={https://www.scitepress.org/Papers/2023/117475/117475.pdf},
+  abstract={Open Data are published to let interested stakeholders exploit data and create value out of them, but limited technical skills are a crucial barrier. Learners are invited to develop data and information literacy according to 21st-century skills and become aware of open data sources and what they can do with the data. They are encouraged to learn how to analyse and exploit data, transform data into information by visualisation, and effectively communicate data insights. This paper presents a systematic literature review of initiatives to let K-12 learners familiarise themselves with Open Data. This review encompasses a total of 21 papers that met the inclusion criteria organising them in taxonomies according to the used data format, the adopted approach, and the expected learning outcome. The discussion compares the included initiative and points out challenges that should be overcome to advance the dialogue around Open Data at school.}
+}
+
+
 @Article{Antelmi_APS_2023,
   AUTHOR = {Antelmi, A. and Cordasco, G. and D'Ambrosio, G. and De Vinco, D. and Spagnuolo, C.},
   TITLE = {Experimenting with Agent-Based Model Simulation Tools},
@@ -104,10 +166,10 @@
 
 
 @InProceedings{Antelmi_WAW_2020,
-	author="Antelmi, A.
-	and Cordasco, G.
-	and Spagnuolo, C.
-	and Szufel, P.",
+	author="Antelmi, Alessia
+    and Cordasco, Gennaro
+    and Spagnuolo, Carmine
+    and Szufel, Przemyslaw",
 	title="Information Diffusion in Complex Networks: A Model Based on Hypergraphs and Its Analysis",
 	booktitle="Algorithms and Models for the Web Graph, WAW'20",
 	year="2020",
@@ -119,11 +181,13 @@
   bibtex_show={true},
   html = {https://link.springer.com/chapter/10.1007/978-3-030-48478-1_3},
   month = {July},
-  code = {https://github.com/pszufe/LTMSim.jl}
+  code = {https://github.com/pszufe/LTMSim.jl},
+  pdf = {publications/Antelmi_WAW_2020.pdf},
+  abstract="This work introduces the problem of social influence diffusion in complex networks, where vertices are linked not only through simple pairwise relationships to other nodes but with groups of nodes of arbitrary size. A challenging problem that arises in this domain is to determine a small subset of nodes S (a target-set) able to spread their influence in the whole network. This problem has been formalized and studied in different ways, and many viable solutions have been found for graphs. These have been applied to study several phenomena in research fields such as social, economic, biological, and physical sciences.",
 }
 
 @inproceedings{Antelmi_AAMAS_2020,
-	author = {Antelmi, A. and Cordasco, G. and Spagnuolo, C. and Scarano, V.},
+	author = {Antelmi, Alessia and Cordasco, Gennaro and Spagnuolo, C. and Scarano, V.},
 	title = {A Design-Methodology for Epidemic Dynamics via Time-Varying Hypergraphs},
 	year = {2020},
 	publisher = {International Foundation for Autonomous Agents and Multiagent Systems},
@@ -136,7 +200,9 @@
   bibtex_show={true},
   html = {https://dl.acm.org/doi/10.5555/3398761.3398774},
   month = {May},
-  code = {https://github.com/alessant/HGEpidemics}
+  code = {https://github.com/alessant/HGEpidemics},
+  pdf = {publications/Antelmi_AAMAS_2020.pdf},
+  abstract = {In epidemiology science, the importance to explore innovative modeling tools for acutely analyzing epidemic diffusion is turning into a big challenge considering the myriad of real-world aspects to capture. Typically, equation-based models, such as SIS and SIR, are used to study the propagation of diseases over a population. Improved approaches also include human-mobility patterns as network information to describe contacts among individuals. However, there still is the need to incorporate in these models information about different types of contagion, geographical information, humans habits, and environmental properties. In this paper, we propose a novel approach that takes into account: 1. direct and indirect epidemic contagion pathways to explore the dynamics of the epidemic, 2. the times of possible contagions, and 3. human-mobility patterns. We combine these three features exploiting time-varying hypergraphs, and we embed this model into a design-methodology for agent-based models (ABMs), able to improve the correctness in the epidemic estimations of classical contact-network approaches. We further describe a diffusion algorithm suitable for our design-methodology and adaptable to the peculiarities of any disease spreading policies and/or models. Finally, we tested our methodology by developing an ABM, realizing the SIS epidemic compartmental model, for simulating an epidemic propagation over a population of individuals. We experimented the model using real user-mobility data from the location-based social networkFoursquare, and we demonstrated the high-impact of temporal direct and indirect contagion pathways.}
 }
 
 @article{Antelmi_InternetMathematics_2020,
@@ -145,30 +211,55 @@
 	DOI={10.24166/im.01.2020},
 	journal={Internet Mathematics},
 	publisher={Internet Mathematics},
-	author={Antelmi, A.
-		and Cordasco, G.
-		and Kami{\'{n}}ski, B.
-		and Pra{\l}at, P.
-		and Scarano, V.
-		and Spagnuolo, C.
-		and Szufel, P.},
+	author={Antelmi, Alessia
+    and Cordasco, Gennaro
+    and Kami{\'{n}}ski, Bogumi{\l}
+    and Pra{\l}at, Pawe{\l}
+    and Scarano, Vittorio
+    and Spagnuolo, Carmine
+    and Szufel, Przemyslaw},
 	year={2020},
   abbr="Internet Math.",
   bibtex_show={true},
   html = {https://www.internetmathematicsjournal.com/article/12464-analyzing-exploring-and-visualizing-complex-networks-via-hypergraphs-using-simplehypergraphs-jl},
   month = {March},
-  code = {https://github.com/pszufe/SimpleHypergraphs.jl}
+  code = {https://github.com/pszufe/SimpleHypergraphs.jl},
+  pdf = {publications/Antelmi_InternetMathematics_2020.pdf},
+  abstract = {Real-world complex networks are usually being modeled as graphs. The concept of graphs assumes that the relations within the network are binary (for instance, between pairs of nodes); however, this is not always true for many real-life scenarios, such as peer-to-peer communication schemes, paper co-authorship, or social network interactions. For such scenarios, it is often the case that the underlying network is better and more naturally modeled by hypergraphs. A hypergraph is a generalization of a graph in which a single (hyper)edge can connect any number of vertices. Hypergraphs allow modelers to have a complete representation of multi-relational (many-to-many) networks; hence, they are extremely suitable for analyzing and discovering more subtle dependencies in such data structures. Working with hypergraphs requires new software libraries that make it possible to perform operations on them, from basic algorithms (such as searching or traversing the network) to computing significant hypergraph measures, to including more challenging algorithms (such as community detection). In this paper, we present a new software library, SimpleHypergraphs.jl, written in the Julia language and designed for high-performance computing on hypergraphs and propose two new algorithms for analyzing their properties: s-betweenness and modified label propagation. We also present various approaches for hypergraph visualization integrated into our tool. In order to demonstrate how to exploit the library in practice, we discuss two case studies based on the 2019 Yelp Challenge dataset and the collaboration network built upon the Game of Thrones TV series. The results are promising and they confirm the ability of hypergraphs to provide more insight than standard graph-based approaches.}
 }
 
+@InProceedings{Spagnuolo_AsiaSim_2019,
+  author="Antelmi, Alessia
+    and Cordasco, Gennaro
+    and D'Auria, Matteo
+    and De Vinco, Daniele
+    and Negro, Alberto
+    and Spagnuolo, Carmine",
+  title="On Evaluating Rust as a Programming Language for the Future of Massive Agent-Based Simulations",
+  booktitle="Methods and Applications for Modeling and Simulation of Complex Systems",
+  year="2019",
+  publisher="Springer Singapore",
+  address="Singapore",
+  pages="15--28",
+  abstract="The analysis of real systems and the development of predictive models to describe the evolution of real phenomena are challenging tasks that can improve the design of methodologies in many research fields. In this context, Agent-Based Model (ABM) can be seen as an innovative tool for modelling real-world complex simulations. This paper presents Rust-AB, an open-source library for developing ABM simulation on sequential and/or parallel computing platforms, exploiting Rust as programming language. The Rust-AB architecture as well as an investigation on the ability of Rust to develop ABM simulations are discussed. An ABM simulation written in Rust-AB, and a performance comparison against the well-adopted Java ABM toolkit MASON is also presented.",
+  isbn="978-981-15-1078-6",
+  doi="10.1007/978-981-15-1078-6_2",
+  pdf={publications/Spagnuolo_AsiaSim_2019.pdf},
+  bibtex_show={true},
+  html = {https://link.springer.com/chapter/10.1007/978-981-15-1078-6_2},
+  code = {https://github.com/krABMaga/krABMaga},
+  abbr="AsiaSim",
+  note="Best Paper Nominee"
+}
 
 @InProceedings{Antelmi_WAW_2019,
-	author="Antelmi, A.
-	and Cordasco, G.
-	and Kami{\'{n}}ski, B.
-	and Pra{\l}at, P.
-	and Scarano, V.
-	and Spagnuolo, C.
-	and Szufel, P.",
+	author="Antelmi, Alessia
+    and Cordasco, Gennaro
+    and Kami{\'{n}}ski, Bogumi{\l}
+    and Pra{\l}at, Pawe{\l}
+    and Scarano, Vittorio
+    and Spagnuolo, Carmine
+    and Szufel, Przemyslaw",
 	title="SimpleHypergraphs.jl---Novel Software Framework for Modelling and Analysis of Hypergraphs",
 	booktitle="Algorithms and Models for the Web Graph, WAW'19",
 	year="2019",
@@ -181,11 +272,13 @@
   bibtex_show={true},
   html = {https://link.springer.com/chapter/10.1007/978-3-030-25070-6_9},
   month = {July},
-  code = {https://github.com/pszufe/SimpleHypergraphs.jl}
+  code = {https://github.com/pszufe/SimpleHypergraphs.jl},
+  pdf = {publications/Antelmi_WAW_2019.pdf},
+  abstract = {Hypergraphs are natural generalization of graphs in which a single (hyper)edge can connect any number of vertices. As a result, hypergraphs are suitable and useful to model many important networks and processes. Typical applications are related to social data analysis and include situations such as exchanging emails with several recipients, reviewing products on social platforms, or analyzing security vulnerabilities of information networks. In many situations, using hypergraphs instead of classical graphs allows us to better capture and analyze dependencies within the network. In this paper, we propose a new library, named SimpleHypergraphs.jl, designed for efficient hypegraph analysis. The library exploits the Julia language flexibility and direct support for distributed computing in order to bring a new quality for simulating and analyzing processes represented as hypergraphs. In order to show how the library can be used we study two case studies based on the Yelp dataset. Results are promising and confirm the ability of hypergraphs to provide more insight than standard graph-based approaches.}
 }
 
 @InProceedings{Antelmi_UMAP_2019,
-  author = {Antelmi, A.},
+  author = {Antelmi, Alessia},
   title = {Towards an Exhaustive Framework for Online Social Networks User Behaviour Modelling},
   year = {2019},
   isbn = {9781450360210},
@@ -198,11 +291,13 @@
   abbr = {UMAP},
   bibtex_show={true},
   html = {https://dl.acm.org/doi/10.1145/3320435.3323466},
-  month = {June}
+  month = {June},
+  pdf = {publications/Antelmi_UMAP_2019.pdf},
+  abstract = {Since the advent of Web 2.0, Online Social Networks (OSNs) represent a rich opportunity for researchers to collect real user data and to explore OSNs user behaviour. Based on the current challenges and future directions proposed in literature, we aim to investigate how to comprehensively model OSNs user behaviours, by exploiting and combining user data of different nature. We propose to use hypergraphs as a model to easily analyse and combine structural, semantic, and activity-related user information, and to study their evolution over time. This novel user behaviour modelling technique will converge in open, efficient, and scalable libraries, which will be integrated into a modular framework able to handle the data crawling process from several OSNs.}
 }
 
 @inproceedings{Antelmi_WWW_2019,
-	author = {Antelmi, A. and Malandrino, D. and Scarano, V.},
+	author = {Antelmi, Alessia and Malandrino, Delfina and Scarano, Vittorio},
 	title = {Characterizing the Behavioral Evolution of Twitter Users and The Truth Behind the 90-9-1 Rule},
 	year = {2019},
 	isbn = {9781450366755},
@@ -218,12 +313,13 @@
   abbr = {TheWebConf},
   bibtex_show={true},
   html = {https://dl.acm.org/doi/10.1145/3308560.3316705},
-  month = {May}
+  month = {May},
+  pdf = {publications/Antelmi_TheWebConf_2019.pdf},
+  abstract = {Online Social Networks (OSNs) represent a fertile field to collect real user data and to explore OSNs user behavior. Recently, two topics are drawing the attention of researchers: the evolution of online social roles and the question of participation inequality. In this work, we bring these two fields together to study and characterize the behavioral evolution of OSNs users according to the quantity and the typology of their social interactions. We found that online participation on the microblogging platform can be categorized into four different activity levels. Furthermore, we empirically verified that the 90-9-1 rule of thumb about participation inequality is not an accurate representation of reality. Findings from our analysis reveal that lurkers are less than expected: they are not 9 out of 10 as suggested by Nielsen, but 3 out of 4. This represents a significant result that can give new insights on how users relate with social media and how their use is evolving towards a more active interaction with the new generation of consumers.}
 }
 
-
 @INPROCEEDINGS{Antelmi_BigData_2018,
-    author={A. {Antelmi} and D. {Malandrino} and V. {Scarano}},
+    author={Alessia {Antelmi}, and Delfina {Malandrino}, and Vittorio {Scarano}},
     booktitle={2018 IEEE International Conference on Big Data (Big Data)},
     title={{Characterizing Twitter Users: What do Samantha Cristoforetti, Barack Obama and Britney Spears Have in Common?}},
     year={2018},
@@ -231,15 +327,33 @@
     number={},
     pages={3622-3627},
     month={Dec},
-    doi={\url{10.1109/BigData.2018.8622045}},
+    doi={10.1109/BigData.2018.8622045},
     bibtex_show={true},
     html={https://ieeexplore.ieee.org/document/8622045},
     abbr={IEEE BigData},
-    month = {December}
+    month = {December},
+    pdf = {publications/Antelmi_IEEEBigData_2018.pdf},
+    abstract = {The exponential growth in the use of digital devices and the ubiquitous online access produce a huge amount of structured and unstructured data that can be mined and analyzed to gather insights into several domains. In particular, since the advent of Web 2.0, Online Social Networks (OSNs) represent a rich opportunity for researchers to collect real user data and to explore OSNs users behavior. This study represents a first attempt to characterize and classify OSNs users according to their level of activity through the use of user profile attributes. We analyzed four case studies from the Twitter platform for a final total of around 721 thousand users, divided into four sub-datasets and examined over a period of at least six months in 2017. Following a data-driven methodology, we found that static, profile-based information - based on the entire lifetime of the users - can help to recognize users influence in Twitter online communities. On the other hand, these profile attributes are not enough to characterize user activity on the microblogging platform.}
+}
+
+@INPROCEEDINGS{Antelmi_AICS_2018,
+	author = {Alessia Antelmi, and Josephine Griffith, and Karen Young},
+	title = {Towards a more systematic analysis of twitter data: A framework for the analysis of twitter communities},
+	year = {2018},
+  month = {December},
+	booktitle = {CEUR Workshop Proceedings},
+	volume = {2259},
+	pages = {303 – 314},
+	html = {https://ceur-ws.org/Vol-2259/aics_28.pdf},
+	abstract = {To date, many studies have used the social media platform Twitter to gather insights into real-life events. The current literature focuses on patterns around isolated case studies and their dynamics happening on the platform, but it still lacks standard techniques for comparing behavioural and interaction patterns within and across Twitter communities. To fill this gap, we present a framework for characterizing online Twitter communities from a quantitative and a semantic point of view. We then discuss an example of the application of the framework to compare two distinct Twitter fan communities. This case study application clearly illustrates the benefits of the framework, while also highlighting potential areas for improvement and further extensions. © 2018 CEUR Workshop Proceedings. All rights reserved.},
+	publisher = {CEUR-WS},
+  abbr={AICS},
+  bibtex_show={true},
+  pdf = {publications/Antelmi_AICS_2018.pdf},
 }
 
 @INPROCEEDINGS{Antelmi_IEEEGEM_2018,
-	author={A. {Antelmi} and J. {Breslin} and K. {Young}},
+	author={Alessia {Antelmi} and Joh {Breslin} and Karen {Young}},
 	booktitle={2018 IEEE Games, Entertainment, Media Conference},
 	series = {GEM'18},
 	title={Understanding User Engagement with Entertainment Media: A Case Study of the Twitter Behaviour of Game of Thrones (GoT) Fans},
@@ -251,25 +365,29 @@
 	bibtex_show={true},
   html={https://ieeexplore.ieee.org/document/8516505},
   abbr={IEEE GEM},
-  month = {August}
+  month = {August},
+  pdf = {/publications/Antelmi_GEM_2018.pdf},
+  abstract = {User Engagement in digital experiences is a fundamental concern for technology developers, educators, businesses, TV networks and marketing agencies. However, engagement remains a confusing concept with cognitive, emotional and behavioural dimensions, that depends on a large number of technical and human interrelated factors. This study contributes to our understanding of User Engagement at a behavioural level, through an analysis of a HBO Game of Thrones (GoT) fans' Twitter dataset, collected over a six-month period. This analysis across the GoT universe: literary, screen, and media extensions, found users are most engaged in discussions around the TV show, and predictably most particularly the season premiere and finale, on the day after it is aired using mobile devices to post their status updates. Additionally, an initial hash tag analysis reveals users are engaged in both user generated conversations and in corporate TV network campaigns, while initial semantic analysis of tweets reveals TV locations and GOT characters to be the most tweeted about topics. This characterisation of user behaviours presents opportunities to content developers to maximise and capitalise on this active social interaction in a timely manner, keeping the brand alive and also to mine this user feedback in real time to inform the development of forthcomina content.}
 }
 
-
 @InProceedings{Spagnuolo_EuroPar_2015,
-  author="Antelmi, A.
-  and Cordasco, G.
-  and Spagnuolo, C.
-  and Vicidomini, L.",
+  author="Alessia Antelmi,
+    and Gennaro Cordasco,
+    and Carmine Spagnuolo,
+    and Luca Vicidomini",
   title="On Evaluating Graph Partitioning Algorithms for Distributed Agent Based Models on Networks",
   booktitle="Euro-Par 2015: Parallel Processing Workshops",
   year="2015",
   publisher="Springer International Publishing",
   address="Cham",
-  pages="367--378",isbn="978-3-319-27308-2",
+  pages="367--378",
+  isbn="978-3-319-27308-2",
 	bibtex_show={true},
   html={https://link.springer.com/chapter/10.1007/978-3-319-27308-2_30},
   abbr={Euro-Par},
-  month = {August}
+  month = {August},
+  pdf = {publications/Spagnuolo_EuroPar_2015.pdf},
+  abstract = {Graph Partitioning is a key challenge problem with application in many scientific and technological fields. The problem is very well studied with a rich literature and is known to be NP-hard. Several heuristic solutions, which follow diverse approaches, have been proposed, they are based on different initial assumptions that make them difficult to compare. An analytical comparison was performed based on an Implementation Challenge [3], however being a multi-objective problem (two opposing goals are for instance load balancing and edge-cut size), the results are difficult to compare and it is hard to foresee what can be the impact of one solution, instead of another, in a real scenario. In this paper we analyze the problem in a real context: the development of a distributed agent-based simulation model on a network field (which for instance can model social interactions).}
 }
 
 
