@@ -6,9 +6,9 @@ description: Infos and materials for courses I teach.
 nav: true
 ---
 
-## `A.A. 2023/2024`
+## `A.A. 2023/2024` | `A.A. 2024/2025` | `A.A. 2025/2026`
 #### Laboratorio di Programmazione I @ Informatica (UNITO)
-Tutto il materiale è disponibile sulla pagina [Moodle del corso](https://informatica.i-learn.unito.it/course/view.php?id=2814).
+Tutto il materiale è disponibile sulla pagina [Moodle del corso](https://informatica.i-learn.unito.it/course/view.php?id=3455).
 
 ## `A.A. 2021/2022`
 #### Laboratorio di Informatica III @ Scienze della Comunicazione (UNISA)
